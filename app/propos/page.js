@@ -2,19 +2,19 @@ import { Header } from "../components/Header";
 import Image from "next/image";
 export default function page() {
   return (
-    <div>
+    <div className="bg-white">
       <Header />
       <main>
         <div className="">
-          <h1 className="text-6xl text-center text-red-600 font-bold mt-20">
+          <h1 className=" text-2xl lg:text-6xl text-center text-red-600 font-bold mt-20">
             Histoire
           </h1>
-          <div className="flex justify-center items-center mt-8">
-            <div className="bg-yellow-400 h-3 w-52"></div>
+          <div className="flex justify-center items-center md:mt-8">
+            <div className="bg-yellow-400 h-3 w-20 md:w-52"></div>
           </div>
         </div>
-        <section className="flex justify-center mt-36">
-          <div className="bg-white w-2/4 h-screen flex justify-center items-center">
+        <section className="flex flex-col md:flex-row justify-center md:mt-36">
+          <div className="bg-white md:w-1/4 flex justify-center items-center">
             <Image
               src="/assets/out-0 7 (1).svg"
               width={650}
@@ -22,16 +22,16 @@ export default function page() {
               alt="img"
             />
           </div>
-          <div className="bg-white h-screen w-3/4 flex-col gap-56 justify-center items-center mt-2 ml-10">
-            <p className="text-2xl">
+          <div className="bg-white md:w-3/4 flex-col gap-56 justify-center items-center mt-2 md:ml-10">
+            <p className="text-2xl text-black">
               Fondé en 2010 par la passionnée de cuisine Marie Okoumé, Saveurs
               Bantu est né du désir de partager l`authentique cuisine gabonaise
               avec le monde. Notre voyage culinaire a commencé dans une petite
               cuisine familiale et s`est transformé en l`expérience
               gastronomique que nous offrons aujourd`hui.
-            </p>
-            <br />
-            <p className="text-2xl">
+            {/* </p>
+            {/* <br /> 
+            <p className="text-2xl"> */}
               Situé au cœur de Libreville, notre restaurant est devenu un lieu
               de rencontre pour les amateurs de cuisine gabonaise authentique et
               les curieux culinaires du monde entier. Nous nous efforçons de
@@ -42,7 +42,7 @@ export default function page() {
           </div>
         </section>
         {/* Ici nous avons la deuxième section */}
-        <section className="h-96 bg-white">
+        <section className=" bg-white">
           <div className="">
             <h1 className="text-center mt-24 text-6xl text-red-600 font-bold ">
               Notre mission
@@ -51,10 +51,10 @@ export default function page() {
               <div className="bg-yellow-400 h-3 w-48"></div>
             </div>
           </div>
-          <p className="text-3xl ml-7 mb-10 mt-8">
+          <p className="text-3xl text-black ml-7 mb-10 mt-8">
             Chez Saveurs Bantu, notre mission est de :
           </p>
-          <div className=" flex-col justify-center text-2xl ml-20">
+          <div className="flex flex-col justify-center text-black text-2xl md:ml-20">
             <div className="flex justify-center gap-10">
               {/* <Image
                 src="/assets/Ellipse 21.jpg"
@@ -81,15 +81,15 @@ export default function page() {
           </div>
         </section>
         {/* Ici j'ai section carousel */}
-        <section className="h-3/4 bg-white mb-16">
+        <section className="md:h-3/4 bg-white md:mb-16">
           <div>
-            <h1 className="text-center mt-24 text-6xl text-red-600 font-bold ">
+            <h1 className="text-center md:mt-24 text-6xl text-red-600 font-bold ">
               Notre Équipe
             </h1>
             <div className="flex justify-center items-center mt-8">
               <div className="bg-yellow-400 h-3 w-48"></div>
             </div>
-            <div className="h-64 mt-20 mb-10 flex justify-around items-center">
+            <div className="md:h-64 md:mt-20 mb-10 flex flex-col justify-around items-center">
               <div className="h-56 w-60 bg-white flex-col  items-center">
                 <Image
                   src="/assets/fondatrice.png"
@@ -133,17 +133,17 @@ export default function page() {
           </div>
         </section>
         {/* Ici j'ai une section Philosophie */}
-        <section className="h-screen bg-white flex-col justify-center items-center mt-20 ">
-          <div className="mt-10">
-            <h1 className="text-center mt-24 text-6xl text-red-600 font-bold ">
+        <section className="bg-white flex-col justify-center items-center md:mt-20 ">
+          <div className="md:mt-10">
+            <h1 className="text-center md:mt-24 text-2xl lg:text-6xl text-red-600 font-bold ">
               Philosophie
             </h1>
             <div className="flex justify-center items-center mt-8">
               <div className="bg-yellow-400 h-3 w-48"></div>
             </div>
           </div>
-          <div className="bg-slate-400 rounded-xl flex justify-around items-center h-2/4 w-11/12 ml-20 mt-32 mb-16 mr-20 ">
-            <div className="h-52  bg-yellow-500 w-96 rounded-xl text-center text-xl">
+          <div className="bg-slate-400 rounded-xl flex flex-col md:flex-row justify-around items-center md:h-2/4 md:mx-20 md:mt-32 md:mb-16 ">
+            <div className="h-52  bg-yellow-500 w-full rounded-xl text-center text-xl">
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Authenticité
               </h1>
@@ -153,7 +153,7 @@ export default function page() {
                 de préparation ancestrales.
               </p>
             </div>
-            <div className="h-52 bg-yellow-500 w-96 rounded-xl text-center text-xl">
+            <div className="h-52 bg-yellow-500 w-full rounded-xl text-center text-xl">
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Communauté
               </h1>
@@ -162,7 +162,7 @@ export default function page() {
                 espace de partage et de connexion pour notre communauté.
               </p>
             </div>
-            <div className="h-52 bg-yellow-500 w-96 rounded-xl text-center text-xl">
+            <div className="h-52 bg-yellow-500 w-full rounded-xl text-center text-xl">
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Durabilité
               </h1>
@@ -172,7 +172,7 @@ export default function page() {
                 environnemental.
               </p>
             </div>
-            <div className="h-52 bg-yellow-500 w-96 rounded-xl text-center text-xl">
+            <div className="h-52 bg-yellow-500 w-full rounded-xl text-center text-xl">
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Passion
               </h1>
@@ -203,6 +203,6 @@ export default function page() {
           </li>
         </ul>
       </footer>
-    </div>
-  );
+    </div>
+  );
 }
