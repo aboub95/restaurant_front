@@ -14,11 +14,11 @@ export default function page() {
           </div>
         </div>
         <section className="flex justify-center mt-36">
-          <div className="bg-white w-2/4 h-screen flex justify-center items-center">
+          <div className="bg-white w-2/4 h-1/2 flex justify-center items-center">
             <Image
               src="/assets/out-0 7 (1).svg"
               width={650}
-              height={650}
+              height={300}
               alt="img"
             />
           </div>
