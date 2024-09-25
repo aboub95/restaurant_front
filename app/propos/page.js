@@ -63,7 +63,7 @@ export default function page() {
                 width={30}
                 height={10}
                 alt="img"
-              /> */}
+              /> 
             </div>
             <li> Préserver et promouvoir l`héritage culinaire gabonais</li>
 
@@ -91,8 +91,8 @@ export default function page() {
             <div className="flex justify-center items-center mt-8">
               <div className="bg-yellow-400 h-3 w-48"></div>
             </div>
-            <div className="md:h-64 md:mt-20 mb-10 flex flex-col justify-around items-center">
-              <div className="h-56 w-60 bg-white flex-col  items-center">
+            <div className="md:h-64 w-full pl-8 mt-8 grid grid-cols-1   sm:grid-cols-1   lg:flex justify-center mb-10 items-center">
+              <div className="h-56 w-60 bg-white flex-col md:flex  items-center">
                 <Image
                   src="/assets/fondatrice.png"
                   width={140}
@@ -103,9 +103,9 @@ export default function page() {
                 <h1 className="text-2xl font-bold text-center mt-3">
                   Marie Okoumé
                 </h1>
-                <p className="text-center mt-5">Fondatrice & Propriétaire</p>
+                <p className="text-center ">Fondatrice & Propriétaire</p>
               </div>
-              <div className="h-56 w-60 bg-white flex-col  items-center">
+              <div className="h-56 w-60 bg-white flex-col   items-center">
                 <Image
                   src="/assets/chefcuisto.jpg"
                   width={140}
@@ -137,14 +137,14 @@ export default function page() {
         {/* Ici j'ai une section Philosophie */}
         <section className="bg-white flex-col justify-center items-center md:mt-20 ">
           <div className="md:mt-10">
-            <h1 className="text-center md:mt-24 text-2xl lg:text-6xl text-red-600 font-bold ">
+            <h1 className="text-center pt-4 md:mt-24 text-2xl pb-3 lg:text-6xl  text-red-600 font-bold ">
               Philosophie
             </h1>
-            <div className="flex justify-center items-center mt-8">
-              <div className="bg-yellow-400 h-3 w-48"></div>
-            </div>
+             <div className="flex justify-center items-center mt-2">
+              <div className="bg-yellow-400 h-3 mb-4  w-48"></div>
+            </div> 
           </div>
-          <div className="bg-slate-400 rounded-xl flex flex-col md:flex-row justify-around items-center md:h-2/4 md:mx-20 md:mt-32 md:mb-16 ">
+          <div className="bg-slate-400 rounded-xl flex flex-col md:flex-row justify-around  p-3 gap-4 items-center md:h-2/4 md:mx-20 md:mt-32 md:mb-16 ">
             <div className="h-52  bg-yellow-500 w-full rounded-xl text-center text-xl">
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Authenticité
@@ -186,7 +186,7 @@ export default function page() {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer/>
          
     </div>
   );
