@@ -46,7 +46,7 @@ export default function page() {
         {/* Ici nous avons la deuxième section */}
         <section className=" bg-white">
           <div className="">
-            <h1 className=" text-3xl lg:text-6xl text-center text-red-600 font-bold mt-20 md:text-3xl flex-col justify-start items-center sm: flex-col justify-center items-center text-2xl ">
+            <h1 className="lg:text-6xl text-center text-red-600 font-bold mt-5 md:text-3xl flex-col sm: flex-col justify-center items-center text-2xl ">
               Notre mission
             </h1>
             <div className="flex justify-center items-center mt-8">
@@ -58,12 +58,12 @@ export default function page() {
           </p>
           <div className="flex-col  text-black text-xl md:ml-2 p-8 lg:text-3xl flex justify-center items-center">
             <div className="flex justify-center gap-5">
-              {/* <Image
+              <Image
                 src="/assets/Ellipse 21.jpg"
                 width={30}
                 height={10}
                 alt="img"
-              /> 
+              />
             </div>
             <li> Préserver et promouvoir l`héritage culinaire gabonais</li>
 
@@ -83,22 +83,22 @@ export default function page() {
           </div>
         </section>
         {/* Ici j'ai section carousel */}
-        <section className="md:h-3/4 bg-white md:mb-16">
-          <div>
-            <h1 className="text-center md:mt-24 text-6xl text-red-600 font-bold ">
+        <section className="md:h-3/4 bg-white  flex justify-around items-center xl: flex justify-around items-center mb-">
+          <div className="bg-gray-500 w-full">
+            <h1 className="text-center md:mt-10 text-2xl text-red-600 font-bold lg:text-3xl">
               Notre Équipe
             </h1>
             <div className="flex justify-center items-center mt-8">
               <div className="bg-yellow-400 h-3 w-48"></div>
             </div>
-            <div className="md:h-64 w-full pl-8 mt-8 grid grid-cols-1   sm:grid-cols-1   lg:flex justify-center mb-10 items-center">
-              <div className="h-56 w-60 bg-white flex-col md:flex  items-center">
+            <div className="bg-bleu md:w-full h-4/6  mt-8 grid grid-cols-1 gap-5 pl-20 sm:grid-cols-1 lg:flex mb-10 items-center ">
+              <div className="h-56 w-60 bg-white">
                 <Image
                   src="/assets/fondatrice.png"
                   width={140}
                   height={140}
                   alt="img"
-                  className="ml-12"
+                  className="ml-12 mt-2"
                 />
                 <h1 className="text-2xl font-bold text-center mt-3">
                   Marie Okoumé
@@ -111,12 +111,12 @@ export default function page() {
                   width={140}
                   height={140}
                   alt="img"
-                  className="ml-12"
+                  className="ml-12 mt-2"
                 />
                 <h1 className="text-2xl font-bold text-center mt-3">
                   Jean-Pierre Ndong
                 </h1>
-                <p className="text-center mt-5">Chef Exécutif</p>
+                <p className="text-center">Chef Exécutif</p>
               </div>
               <div className="h-56 w-60 bg-white flex-col justify-center  items-center">
                 <Image
@@ -124,12 +124,12 @@ export default function page() {
                   width={140}
                   height={140}
                   alt="img"
-                  className="ml-12 "
+                  className="ml-12 mt-2"
                 />
                 <h1 className="text-2xl font-bold text-center mt-3">
                   Sophie Moussavou
                 </h1>
-                <p className="text-center mt-5">Responsable Service Client</p>
+                <p className="text-center">Responsable Service Client</p>
               </div>
             </div>
           </div>
@@ -137,19 +137,19 @@ export default function page() {
         {/* Ici j'ai une section Philosophie */}
         <section className="bg-white flex-col justify-center items-center md:mt-20 ">
           <div className="md:mt-10">
-            <h1 className="text-center pt-4 md:mt-24 text-2xl pb-3 lg:text-6xl  text-red-600 font-bold ">
+            <h1 className="text-center pt-4 md:mt-24 text-2xl pb-3 xl:text-6xl text-red-600 font-bold ">
               Philosophie
             </h1>
-             <div className="flex justify-center items-center mt-2">
+            <div className="flex justify-center items-center mt-2">
               <div className="bg-yellow-400 h-3 mb-4  w-48"></div>
-            </div> 
+            </div>
           </div>
-          <div className="bg-slate-400 rounded-xl flex flex-col md:flex-row justify-around  p-3 gap-4 items-center md:h-2/4 md:mx-20 md:mt-32 md:mb-16 ">
+          <div className="bg-gray-500 rounded-xl mb-28  sm:flex-row justify-around  p-6 m-3 gap-4 items-center h-2/4 lg:flex  ">
             <div className="h-52  bg-yellow-500 w-full rounded-xl text-center text-xl">
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Authenticité
               </h1>
-              <p>
+              <p className="sm:text-xl flex-col justify-center items-center md: text-xl flex justify-center items-center">
                 Nous croyons en la préservation des traditions culinaires
                 gabonaises, en utilisant des ingrédients locaux et des méthodes
                 de préparation ancestrales.
@@ -159,7 +159,7 @@ export default function page() {
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Communauté
               </h1>
-              <p>
+              <p className="sm:text-xl flex-col justify-center items-center md: text-xl flex justify-center items-center ">
                 Notre restaurant est plus qu`un lieu de restauration; c`est un
                 espace de partage et de connexion pour notre communauté.
               </p>
@@ -168,7 +168,7 @@ export default function page() {
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Durabilité
               </h1>
-              <p>
+              <p className="sm:text-xl flex-col justify-center items-center md: text-xl flex justify-center items-center">
                 Nous nous engageons à adopter des pratiques durables, en
                 soutenant les producteurs locaux et en minimisant notre impact
                 environnemental.
@@ -178,7 +178,7 @@ export default function page() {
               <h1 className="text-red-700 text-center font-bold mt-4">
                 Passion
               </h1>
-              <p>
+              <p className="sm:text-xl flex-col justify-center items-center md: text-xl flex justify-center items-center">
                 Chaque plat que nous servons est préparé avec passion et
                 dévouement, reflétant notre amour pour la cuisine gabonaise.
               </p>
@@ -186,8 +186,7 @@ export default function page() {
           </div>
         </section>
       </main>
-      <Footer/>
-         
+      <Footer />
     </div>
   );
 }

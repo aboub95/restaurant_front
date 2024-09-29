@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Header } from "../components/Header";
 
+import { App } from "antd";
+
 export default function page() {
   return (
     <div>
