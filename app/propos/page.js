@@ -46,7 +46,7 @@ export default function page() {
         {/* Ici nous avons la deuxième section */}
         <section className=" bg-white">
           <div className="">
-            <h1 className="lg:text-6xl text-center text-red-600 font-bold mt-5 md:text-3xl flex-col sm: flex-col justify-center items-center text-2xl ">
+            <h1 className="text-3xl lg:text-6xl text-center text-red-600 font-bold mt-5 md:text-3xl sm: flex-col justify-center items-center ">
               Notre mission
             </h1>
             <div className="flex justify-center items-center mt-8">
@@ -56,16 +56,8 @@ export default function page() {
           <p className="text-xl text-black ml-5 mb-2 mt-5 lg:text-3xl flex justify-start items-center">
             Chez Saveurs Bantu, notre mission est de :
           </p>
-          <div className="flex-col  text-black text-xl md:ml-2 p-8 lg:text-3xl flex justify-center items-center">
-            <div className="flex justify-center gap-5">
-              <Image
-                src="/assets/Ellipse 21.jpg"
-                width={30}
-                height={10}
-                alt="img"
-              />
-            </div>
-            c<li> Préserver et promouvoir l`héritage culinaire gabonais</li>
+          <div className="text-black text-xl sm: ml-7 mt-5 mb-5 lg:text-3xl lg:ml-20 lg:mt-10 ">
+            <li> Préserver et promouvoir l`héritage culinaire gabonais</li>
             <li className="mt-2">
               Préserver et promouvoir l`héritage culinaire gabonais
             </li>
@@ -84,13 +76,13 @@ export default function page() {
         {/* Ici j'ai section carousel */}
         <section className="md:h-3/4 bg-white md:mb-16">
           <div>
-            <h1 className="text-center md:mt-24 md:text-6xl text-4xl text-red-600 font-bold ">
+            <h1 className="text-center text-3xl md:mt-24 md:text-4xl text-red-600 font-bold lg:text-6xl ">
               Notre Équipe
             </h1>
             <div className="flex justify-center items-center mt-8">
               <div className="bg-yellow-400 h-3 w-48"></div>
             </div>
-            <div className=" w-full  mt-8 grid grid-cols-1 gap-6     lg:flex justify-center mb-10 items-center">
+            <div className=" w-full  mt-8 grid grid-cols-1 gap-6     lg:flex justify-around mb-10 items-center">
               <div className=" bg-white flex-col  flex justify-center  items-center">
                 <Image
                   src="/assets/fondatrice.png"
@@ -136,7 +128,7 @@ export default function page() {
         {/* Ici j'ai une section Philosophie */}
         <section className="bg-white flex-col justify-center items-center md:mt-20 ">
           <div className="md:mt-10">
-            <h1 className="text-center pt-4 md:mt-24 text-2xl pb-3 xl:text-6xl text-red-600 font-bold ">
+            <h1 className="text-center text-3xl pt-4 md:mt-24 text-4xl pb-3 lg:text-6xl text-red-600 font-bold ">
               Philosophie
             </h1>
             <div className="flex justify-center items-center mt-2">
