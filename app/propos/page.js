@@ -64,7 +64,7 @@ export default function page() {
                 height={10}
                 alt="img"
               /> 
-            </div>
+            </div>c
             <li> Préserver et promouvoir l`héritage culinaire gabonais</li>
 
             <li className="mt-4">
@@ -85,46 +85,46 @@ export default function page() {
         {/* Ici j'ai section carousel */}
         <section className="md:h-3/4 bg-white md:mb-16">
           <div>
-            <h1 className="text-center md:mt-24 text-6xl text-red-600 font-bold ">
+            <h1 className="text-center md:mt-24 md:text-6xl text-4xl text-red-600 font-bold ">
               Notre Équipe
             </h1>
             <div className="flex justify-center items-center mt-8">
               <div className="bg-yellow-400 h-3 w-48"></div>
             </div>
-            <div className="md:h-64 w-full pl-8 mt-8 grid grid-cols-1   sm:grid-cols-1   lg:flex justify-center mb-10 items-center">
-              <div className="h-56 w-60 bg-white flex-col md:flex  items-center">
+            <div className=" w-full  mt-8 grid grid-cols-1 gap-6     lg:flex justify-center mb-10 items-center">
+              <div className=" bg-white flex-col  flex justify-center  items-center">
                 <Image
                   src="/assets/fondatrice.png"
                   width={140}
                   height={140}
                   alt="img"
-                  className="ml-12"
+                  className=""
                 />
                 <h1 className="text-2xl font-bold text-center mt-3">
                   Marie Okoumé
                 </h1>
                 <p className="text-center ">Fondatrice & Propriétaire</p>
               </div>
-              <div className="h-56 w-60 bg-white flex-col   items-center">
+              <div className="  bg-white flex-col  flex justify-center  items-center">
                 <Image
                   src="/assets/chefcuisto.jpg"
                   width={140}
                   height={140}
                   alt="img"
-                  className="ml-12"
+                  className=""
                 />
                 <h1 className="text-2xl font-bold text-center mt-3">
                   Jean-Pierre Ndong
                 </h1>
                 <p className="text-center mt-5">Chef Exécutif</p>
               </div>
-              <div className="h-56 w-60 bg-white flex-col justify-center  items-center">
+              <div className=" bg-white flex-col  flex justify-center  items-center">
                 <Image
                   src="/assets/respoclient.png"
                   width={140}
                   height={140}
                   alt="img"
-                  className="ml-12 "
+                  className=""
                 />
                 <h1 className="text-2xl font-bold text-center mt-3">
                   Sophie Moussavou
