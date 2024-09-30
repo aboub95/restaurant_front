@@ -42,7 +42,7 @@ export default function page() {
               />
               <p className="text-center mt-1">lbv@exemple.com</p>
             </div>
-            <div className="h-32 w-60 bg-white">
+            <div className="h-32 w-60 bg-blue-400">
               <Image
                 src="/assets/line-md_phone-call-loop.jpg"
                 className="ml-16 mt-2"
@@ -52,7 +52,7 @@ export default function page() {
               />
               <p className="text-center mt-1">074 xx xx xx</p>
             </div>
-            <div className="h-32 w-60 bg-white">
+            <div className="h-32 w-60 bg-red-400">
               <Image
                 src="/assets/gis_position-o.jpg"
                 className="ml-16 mt-2"
