@@ -26,7 +26,7 @@ export default function page() {
               placeholder="Message..."
             />
             <button className="w-32 h-10 mt-2 ml-8 bg-red-600 text-white text-center rounded-full hover:bg-blue-600 transition-colors">
-              Envoyer
+              soumettre
             </button>
           </div>
         </div>
